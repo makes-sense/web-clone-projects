@@ -137,8 +137,8 @@ AUTHENTICATION_BACKENDS = (
 
 LOGIN_REDIRECT_URL = '/'
 SOCIAL_AUTH_REDIRECT_IS_HTTPS = True
-SOCIAL_AUTH_FACEBOOK_KEY = '787489148286121'
-SOCIAL_AUTH_FACEBOOK_SECRET = '60361c0092bf078509223f049a2cba77'
+SOCIAL_AUTH_FACEBOOK_KEY = ''#insert your facebook app key
+SOCIAL_AUTH_FACEBOOK_SECRET = ''#insert your facebook app key
 SOCIAL_AUTH_PIPELINE = (
     'social.pipeline.social_auth.social_details',
     'social.pipeline.social_auth.social_uid',
